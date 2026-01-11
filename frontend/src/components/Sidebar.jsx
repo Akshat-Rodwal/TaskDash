@@ -4,6 +4,7 @@ import {
     CheckSquare,
     Settings,
     Users,
+    User,
     PieChart,
 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
@@ -15,6 +16,7 @@ const Sidebar = () => {
         { icon: LayoutDashboard, label: "Dashboard", path: "/dashboard" },
         // { icon: FolderKanban, label: "Projects", path: "/projects" },
         { icon: CheckSquare, label: "My Tasks", path: "/tasks" },
+        { icon: User, label: "Profile", path: "/profile" },
         // { icon: Users, label: "Team", path: "/team" },
         // { icon: PieChart, label: "Analytics", path: "/analytics" },
     ];

@@ -11,6 +11,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import MyTasks from "./pages/MyTasks";
+import Profile from "./pages/Profile";
 import { ToastContainer } from "./components/ui/Toast";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                         <Route element={<ProtectedRoute />}>
                             <Route path="/dashboard" element={<Dashboard />} />
                             <Route path="/tasks" element={<MyTasks />} />
+                            <Route path="/profile" element={<Profile />} />
                         </Route>
 
                         <Route

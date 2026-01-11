@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #135bec;
+    --color-background-light: #f6f6f8;
+    --color-background-dark: #101622;
+    --font-display: "Inter", sans-serif;
+}
+
+/* Custom Styles from User Request */
+.task-card-hover:hover .task-actions {
+    opacity: 1;
+}
+
+.primary-gradient {
+    background: linear-gradient(135deg, #135bec 0%, #7c3aed 100%);
+}
+
+/* Overriding border radius for specific classes if needed, or we can use arbitrary values in code */
